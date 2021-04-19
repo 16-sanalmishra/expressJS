@@ -4,7 +4,7 @@ var app = express();
 
 // Create root URL
 app.get('/', function (req, res) {
-   res.send('Hello World');
+   res.send('This is my first Express Program');
 })
 
 // Start application at Port 3000
